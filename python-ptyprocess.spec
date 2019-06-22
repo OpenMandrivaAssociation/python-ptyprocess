@@ -1,14 +1,14 @@
 %define pypi_name ptyprocess
 
 Name:		python-%{pypi_name}
-Version:	0.5.2
+Version:	0.6.0
 Release:	3
 Group:		Development/Python
 Summary:	Run a subprocess in a pseudo terminal
 
 License:	BSD
 URL:		https://pypi.python.org/pypi/%{pypi_name}
-Source0:	https://pypi.python.org/packages/51/83/5d07dc35534640b06f9d9f1a1d2bc2513fb9cc7595a1b0e28ae5477056ce/ptyprocess-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/7d/2d/e4b8733cf79b7309d84c9081a4ab558c89d8c89da5961bf4ddb050ca1ce0/ptyprocess-0.6.0.tar.gz
 BuildArch:	noarch
  
 BuildRequires:	python2-devel
