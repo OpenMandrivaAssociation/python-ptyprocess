@@ -2,13 +2,13 @@
 
 Name:		python-%{pypi_name}
 Version:	0.7.0
-Release:	1
+Release:	2
 Group:		Development/Python
 Summary:	Run a subprocess in a pseudo terminal
 
 License:	BSD
 URL:		https://pypi.python.org/pypi/%{pypi_name}
-Source0:	https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-0.7.0.tar.gz
+Source0:	https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-%{version}.tar.gz
 BuildArch:	noarch
  
 BuildRequires:	python2-devel
@@ -51,8 +51,8 @@ popd
 
 %files
 %{python_sitelib}/%{pypi_name}
-%{python_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
+%{python_sitelib}/%{pypi_name}-%{version}-py*.*.egg-info
 
 %files -n python2-%{pypi_name}
 %{python2_sitelib}/%{pypi_name}
-%{python2_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
+%{python2_sitelib}/%{pypi_name}-%{version}-py*.*.egg-info
