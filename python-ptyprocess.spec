@@ -2,7 +2,7 @@
 
 Name:		python-%{pypi_name}
 Version:	0.7.0
-Release:	3
+Release:	4
 Group:		Development/Python
 Summary:	Run a subprocess in a pseudo terminal
 
