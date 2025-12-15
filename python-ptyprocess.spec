@@ -13,6 +13,7 @@ BuildArch:	noarch
  
 BuildRequires:	python2-devel
 BuildRequires:	python-devel
+BuildRequires: python-setuptools
 
 %description
 Launch a subprocess in a pseudo terminal (pty), and interact with both
